@@ -10,7 +10,7 @@ import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 import { setPosts } from "../store/postSlice.js";
 
-import CommentForm from "../components/CommentForm/commentForm.jsx";
+import CommentForm from "../components/CommentForm/CommentForm.jsx";
 import { Comment } from "../components/index.js";
 
 export default function Post() {
