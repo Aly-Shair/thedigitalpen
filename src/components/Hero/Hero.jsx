@@ -37,7 +37,7 @@ export default function Hero() {
       <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
         
         {/* Image Section */}
-        <div className="col-sm-10 col-lg-6">
+        <div className="col-10 col-lg-6">
           {/* <img src={bootstrapThemes} className="d-block mx-lg-auto img-fluid rounded-3 shadow-lg" alt="Bootstrap Themes" width="700" height="500" loading="lazy"/> */}
           {
             isLoggedIn ? (
